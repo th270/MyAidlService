@@ -8,4 +8,8 @@ interface ServiceResult {
     void success();
     void failed(int errorCode,String msg);
 
+    void error(int errorCode,String msg);
+
+    void returnOK();
+
 }

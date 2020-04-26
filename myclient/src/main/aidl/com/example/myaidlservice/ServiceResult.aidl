@@ -10,4 +10,6 @@ interface ServiceResult {
 
     void error(int errorCode,String msg);
 
+    void returnOK();
+
 }

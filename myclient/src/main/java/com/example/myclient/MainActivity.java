@@ -49,6 +49,16 @@ public class MainActivity extends AppCompatActivity {
                         Log.d("test", "errorCode == " + errorCode + "msg == " + msg);
                     }
 
+                    @Override
+                    public void error(int errorCode, String msg) throws RemoteException {
+
+                    }
+
+                    @Override
+                    public void returnOK() throws RemoteException {
+
+                    }
+
                 });
             } catch (RemoteException e) {
                 e.printStackTrace();
